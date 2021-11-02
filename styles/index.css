@@ -1,0 +1,178 @@
+@import '../vendor/normalize.css';
+.page {
+  background-color: #181818;
+}
+
+.home {
+  background-image: url("../images/dots.svg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__title {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 56px;
+  line-height: 90%;
+  margin-bottom: 64px;
+  font-weight: 400;
+}
+
+.home__texts {
+  max-width: 586px;
+  margin-top: 72px;
+  margin-left: 100px;
+}
+
+.home__text {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 22px;
+  line-height: 170%;
+  font-weight: 400;
+  margin-bottom: 37px;
+}
+.home__text:last-of-type {
+  margin-bottom: 0;
+}
+
+.home__assistant {
+  max-width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-animation: levitation;
+          animation: levitation;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.home__interface {
+  max-width: 730px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 80px;
+}
+
+.home__text-wrapper {
+  position: absolute;
+  bottom: 72px;
+  left: 100px;
+}
+
+.home__bottom-text {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.home__bottom-text_title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 90%;
+  margin-bottom: 18px;
+}
+
+.home__bottom-text_description {
+  font-size: 61px;
+  line-height: 90%;
+  font-weight: 900;
+  margin-left: 60px;
+}
+
+.home__assistant-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home__ring {
+  height: 61px;
+  width: 194px;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  -webkit-animation: ring;
+          animation: ring;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+}
+
+.home__ring_top {
+  background-image: url("../images/top-ring.svg");
+}
+
+.home__ring_bottom {
+  position: absolute;
+  bottom: 5px;
+  z-index: 3;
+  background-image: url(../images/bottom-ring.svg);
+}
+
+@-webkit-keyframes levitation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes levitation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes ring {
+  0% {
+    transform: scale(0);
+    bottom: -25px;
+  }
+  80% {
+    transform: scale(1.8);
+    bottom: 5px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes ring {
+  0% {
+    transform: scale(0);
+    bottom: -25px;
+  }
+  80% {
+    transform: scale(1.8);
+    bottom: 5px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,11 @@
+.home__text {
+    @include font;
+    font-size: 22px;
+    line-height: 170%;
+    font-weight: 400;
+    margin-bottom: 37px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,22 @@
+@import '../vendor/normalize.css';
+@import './modules/mixins.scss';
+@import './modules/variables.scss';
+
+@import './modules/blocks/page/page.scss';
+@import './modules/blocks/home/home.scss';
+@import './modules/blocks/home/__title/home__title.scss';
+@import './modules/blocks/home/__texts/home__texts.scss';
+@import './modules/blocks/home/__text/home__text.scss';
+@import './modules/blocks/home/__assistant/home__assistant.scss';
+@import './modules/blocks/home/__interface/home__interface.scss';
+@import './modules/blocks/home/__text-wrapper/home__text-wrapper.scss';
+@import './modules/blocks/home/__bottom-text/home__bottom-text.scss';
+@import './modules/blocks/home/__bottom-text/_title/home__bottom-text_ttle.scss';
+@import './modules/blocks/home/__bottom-text/_description/home__bottom-text_description.scss';
+@import './modules/blocks/home/__assistant-wrapper/home__assistant-wrapper.scss';
+@import './modules/blocks/home/__ring/home__ring.scss';
+@import './modules/blocks/home/__ring/_top/home__ring_top.scss';
+@import './modules/blocks/home/__ring/_bottom/home__ring_bottom.scss';
+
+@import './modules/blocks/animation/__levitation/animation__levitation.scss';
+@import './modules/blocks/animation/__ring/animation__ring.scss';
