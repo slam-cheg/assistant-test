@@ -1,9 +1,6 @@
 .home__assistant {
-    max-width: 250px;
+    max-width: 100%;
     object-fit: contain;
-    animation: levitation;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 5s;
-    animation-iteration-count: infinite;
+    position: relative;
+    z-index: 3;
 }

@@ -3,4 +3,16 @@
     line-height: 90%;
     font-weight: 900;
     margin-left: 60px;
+    width: max-content;
+
+    @media screen and (max-width: 479px) {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.home__bottom-text_description span {
+    @media screen and (max-width: 479px) {
+        font-size: 49px;
+    }
 }

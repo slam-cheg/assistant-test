@@ -4,4 +4,8 @@
     line-height: 90%;
     margin-bottom: 64px;
     font-weight: 400;
+
+    @media screen and (max-width: 479px) {
+        font-size: 34px;
+    }
 }

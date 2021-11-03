@@ -1,3 +1,10 @@
 .page {
     background-color: $black-bg;
+    background-image: url(../images/dots.svg);
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 479px) {
+        background-image: unset;
+    }
 }

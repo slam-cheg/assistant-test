@@ -23,16 +23,19 @@
                 </p>
                 <p class="home__text">Произнесите одну из доступных команд. Если произнесённая команда распознана, вы услышите ответ и кресло приступит к выполнению запроса.</p>
             </div>
-            
+
             <div class="home__assistant-wrapper">
-                <img src="images/assistant.png" alt="Yamaguchi голосовой ассистент" class="home__assistant" />
-                <div class="home__ring home__ring_top"></div>
-                <div class="home__ring home__ring_bottom"></div>
+                <div class="home__assistant-move animation__levitation">
+                    <img src="images/assistant.png" alt="Yamaguchi голосовой ассистент" class="home__assistant animation__appearing" />
+                </div>
+                <div class="home__ring animation__ring"></div>
             </div>
-            <img src="images/interface.png" alt="Yamaguchi интерфейс голосового помощника" class="home__interface" />
+            <div class="home__image-wrapper">
+                <img src="images/interface.png" alt="Yamaguchi интерфейс голосового помощника" class="home__interface" />
+            </div>
             <div class="home__text-wrapper">
                 <p class="home__bottom-text home__bottom-text_title">СКАЖИ:</p>
-                <p class="home__bottom-text home__bottom-text_description">«ОКЕЙ, ЯМАГУЧИ»</p>
+                <p class="home__bottom-text home__bottom-text_description">«ОКЕЙ, <span>ЯМАГУЧИ»</span></p>
             </div>
         </section>
         <script src="script/index.js"></script>

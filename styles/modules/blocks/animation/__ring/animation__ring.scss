@@ -1,13 +1,26 @@
 @keyframes ring {
     0% {
-        transform: scale(0);
-        bottom: -25px;
+        width: 0;
+        height: 0;
+    }
+    20% {
+        height: 100px;
+        width: 260px;
     }
     80% {
-        transform: scale(1.8);
-        bottom: 5px;
+        height: 100px;
+        width: 260px;
     }
     100% {
-        transform: scale(1);
+        width: 0;
+        height: 0;
     }
+}
+.animation__ring {
+    animation: 3s linear 0s ring;
+    animation-fill-mode: both;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
 }

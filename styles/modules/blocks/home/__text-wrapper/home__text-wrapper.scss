@@ -1,5 +1,12 @@
 .home__text-wrapper {
     position: absolute;
-    bottom: 72px;
-    left: 100px;
+    z-index: 5;
+    bottom: 35px;
+
+    @media screen and (max-width: 479px) {
+        position: relative;
+        z-index: 5;
+        margin-bottom: 50px;
+        bottom: unset;
+    }
 }

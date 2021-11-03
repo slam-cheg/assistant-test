@@ -1,9 +1,19 @@
 .home {
-    background-image: url('../images/dots.svg');
-    background-position: center;
-    background-size: cover;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
     height: 100vh;
     overflow: hidden;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
+    position: relative;
+
+    @media screen and (max-width: 479px) {
+        overflow: unset;
+        max-width: calc(100% - 30px);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
 }

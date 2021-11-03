@@ -3,4 +3,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-left: 120px;
+    max-width: 250px;
+
+    @media screen and (max-width: 479px) {
+        padding-left: 0;
+        position: relative;
+    }
 }

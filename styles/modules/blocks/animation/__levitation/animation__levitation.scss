@@ -9,3 +9,11 @@
         transform: translateY(0);
     }
 }
+
+.animation__levitation {
+    animation: levitation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}

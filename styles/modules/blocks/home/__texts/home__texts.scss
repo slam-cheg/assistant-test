@@ -1,5 +1,11 @@
 .home__texts {
-    max-width: 586px;
-    margin-top: 72px;
-    margin-left: 100px;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 100px;
+
+    @media screen and (max-width: 479px) {
+        margin-top: 15px;
+    }
 }
